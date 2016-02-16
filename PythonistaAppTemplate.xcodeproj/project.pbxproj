@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F918BBC1C721C1F0064E744 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F918BBB1C721C1F0064E744 /* main.m */; };
+		7F918BBF1C721C1F0064E744 /* PAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F918BBE1C721C1F0064E744 /* PAAppDelegate.m */; };
+		7F918BC21C721C1F0064E744 /* PAAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F918BC11C721C1F0064E744 /* PAAppViewController.m */; };
+		7F918BC71C721C1F0064E744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F918BC61C721C1F0064E744 /* Assets.xcassets */; };
+		7F918BCA1C721C1F0064E744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F918BC81C721C1F0064E744 /* LaunchScreen.storyboard */; };
+		7F918BD61C721D580064E744 /* captureoutput.py in Resources */ = {isa = PBXBuildFile; fileRef = 7F918BD51C721D580064E744 /* captureoutput.py */; };
+		7F918BD81C721D710064E744 /* captureexceptions.py in Resources */ = {isa = PBXBuildFile; fileRef = 7F918BD71C721D710064E744 /* captureexceptions.py */; };
+		7F918BDE1C722A240064E744 /* PythonistaKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F918BDB1C722A1E0064E744 /* PythonistaKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7F918BDF1C722A2C0064E744 /* PythonistaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F918BDB1C722A1E0064E744 /* PythonistaKit.framework */; };
+		7F918C401C729E400064E744 /* libpythonista_appui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F918C3F1C729E400064E744 /* libpythonista_appui.a */; };
+		7F918C421C729E6B0064E744 /* OMTextEditor.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F918C411C729E6B0064E744 /* OMTextEditor.xcassets */; };
+		7F918C461C7393A40064E744 /* Script in Resources */ = {isa = PBXBuildFile; fileRef = 7F918C451C7393A40064E744 /* Script */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7F918BD31C721C4C0064E744 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7F918BDE1C722A240064E744 /* PythonistaKit.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7F918BB71C721C1F0064E744 /* My App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F918BBB1C721C1F0064E744 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F918BBD1C721C1F0064E744 /* PAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAAppDelegate.h; sourceTree = "<group>"; };
+		7F918BBE1C721C1F0064E744 /* PAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAAppDelegate.m; sourceTree = "<group>"; };
+		7F918BC01C721C1F0064E744 /* PAAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAAppViewController.h; sourceTree = "<group>"; };
+		7F918BC11C721C1F0064E744 /* PAAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAAppViewController.m; sourceTree = "<group>"; };
+		7F918BC61C721C1F0064E744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F918BC91C721C1F0064E744 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F918BCB1C721C1F0064E744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F918BD51C721D580064E744 /* captureoutput.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = captureoutput.py; sourceTree = "<group>"; };
+		7F918BD71C721D710064E744 /* captureexceptions.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = captureexceptions.py; sourceTree = "<group>"; };
+		7F918BDB1C722A1E0064E744 /* PythonistaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PythonistaKit.framework; sourceTree = "<group>"; };
+		7F918C3F1C729E400064E744 /* libpythonista_appui.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpythonista_appui.a; sourceTree = "<group>"; };
+		7F918C411C729E6B0064E744 /* OMTextEditor.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = OMTextEditor.xcassets; sourceTree = "<group>"; };
+		7F918C451C7393A40064E744 /* Script */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Script; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F918BB41C721C1F0064E744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F918C401C729E400064E744 /* libpythonista_appui.a in Frameworks */,
+				7F918BDF1C722A2C0064E744 /* PythonistaKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F918BAE1C721C1F0064E744 = {
+			isa = PBXGroup;
+			children = (
+				7F918C451C7393A40064E744 /* Script */,
+				7F918BB91C721C1F0064E744 /* PythonistaAppTemplate */,
+				7F918BB81C721C1F0064E744 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F918BB81C721C1F0064E744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F918BB71C721C1F0064E744 /* My App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F918BB91C721C1F0064E744 /* PythonistaAppTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				7F918BBD1C721C1F0064E744 /* PAAppDelegate.h */,
+				7F918BBE1C721C1F0064E744 /* PAAppDelegate.m */,
+				7F918BC01C721C1F0064E744 /* PAAppViewController.h */,
+				7F918BC11C721C1F0064E744 /* PAAppViewController.m */,
+				7F918BC81C721C1F0064E744 /* LaunchScreen.storyboard */,
+				7F918BCB1C721C1F0064E744 /* Info.plist */,
+				7F918BC61C721C1F0064E744 /* Assets.xcassets */,
+				7F918BBA1C721C1F0064E744 /* Supporting Files */,
+			);
+			path = PythonistaAppTemplate;
+			sourceTree = "<group>";
+		};
+		7F918BBA1C721C1F0064E744 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F918C411C729E6B0064E744 /* OMTextEditor.xcassets */,
+				7F918C3F1C729E400064E744 /* libpythonista_appui.a */,
+				7F918BDB1C722A1E0064E744 /* PythonistaKit.framework */,
+				7F918BD51C721D580064E744 /* captureoutput.py */,
+				7F918BD71C721D710064E744 /* captureexceptions.py */,
+				7F918BBB1C721C1F0064E744 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F918BB61C721C1F0064E744 /* My App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F918BCE1C721C1F0064E744 /* Build configuration list for PBXNativeTarget "My App" */;
+			buildPhases = (
+				7F918BB31C721C1F0064E744 /* Sources */,
+				7F918BB41C721C1F0064E744 /* Frameworks */,
+				7F918BB51C721C1F0064E744 /* Resources */,
+				7F918BD31C721C4C0064E744 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "My App";
+			productName = PythonistaAppTemplate;
+			productReference = 7F918BB71C721C1F0064E744 /* My App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F918BAF1C721C1F0064E744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "omz-software";
+				TargetAttributes = {
+					7F918BB61C721C1F0064E744 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 7F918BB21C721C1F0064E744 /* Build configuration list for PBXProject "PythonistaAppTemplate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F918BAE1C721C1F0064E744;
+			productRefGroup = 7F918BB81C721C1F0064E744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F918BB61C721C1F0064E744 /* My App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F918BB51C721C1F0064E744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F918BD61C721D580064E744 /* captureoutput.py in Resources */,
+				7F918BD81C721D710064E744 /* captureexceptions.py in Resources */,
+				7F918BCA1C721C1F0064E744 /* LaunchScreen.storyboard in Resources */,
+				7F918C421C729E6B0064E744 /* OMTextEditor.xcassets in Resources */,
+				7F918C461C7393A40064E744 /* Script in Resources */,
+				7F918BC71C721C1F0064E744 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F918BB31C721C1F0064E744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F918BC21C721C1F0064E744 /* PAAppViewController.m in Sources */,
+				7F918BBF1C721C1F0064E744 /* PAAppDelegate.m in Sources */,
+				7F918BBC1C721C1F0064E744 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F918BC81C721C1F0064E744 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F918BC91C721C1F0064E744 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F918BCC1C721C1F0064E744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F918BCD1C721C1F0064E744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F918BCF1C721C1F0064E744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PythonistaAppTemplate",
+				);
+				INFOPLIST_FILE = PythonistaAppTemplate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PythonistaAppTemplate",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omz-software.PythonistaAppTemplate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F918BD01C721C1F0064E744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PythonistaAppTemplate",
+				);
+				INFOPLIST_FILE = PythonistaAppTemplate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PythonistaAppTemplate",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.omz-software.PythonistaAppTemplate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F918BB21C721C1F0064E744 /* Build configuration list for PBXProject "PythonistaAppTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F918BCC1C721C1F0064E744 /* Debug */,
+				7F918BCD1C721C1F0064E744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F918BCE1C721C1F0064E744 /* Build configuration list for PBXNativeTarget "My App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F918BCF1C721C1F0064E744 /* Debug */,
+				7F918BD01C721C1F0064E744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F918BAF1C721C1F0064E744 /* Project object */;
+}

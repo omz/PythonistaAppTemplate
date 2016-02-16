@@ -1,0 +1,85 @@
+{
+	"collections": [
+		{
+			"title": "Playing Cards", "type": "image", "path": "Images/card",
+			"copyright": "Kenney – CC0 (Public Domain)", "copyrightURL": "http://www.kenney.nl"
+		},
+		{
+			"title": "Emoji", "type": "image", "path": "Images/emj"
+		},
+		{
+			"title": "Ionicons Black", "type": "image", "path": "Images/iob",
+			"copyright": "Ben Sperry – MIT-licensed", "copyrightURL": "http://ionicons.com"
+		},
+		{
+			"title": "Ionicons White", "type": "image", "path": "Images/iow", "darkBackground": true,
+			"copyright": "Ben Sperry – MIT-licensed", "copyrightURL": "http://ionicons.com"
+		},
+		{
+			"title": "Planet Cute", "type": "image", "path": "Images/plc",
+			"copyright": "Daniel Cook (lostgarden.com)", "copyrightURL": "http://www.lostgarden.com/2007/05/dancs-miraculously-flexible-game.html"
+		},
+		{
+			"title": "Platformer Art", "type": "image", "path": "Images/plf",
+			"copyright": "Kenney – CC0 (Public Domain)", "copyrightURL": "http://www.kenney.nl"
+		},
+		{
+			"title": "Puzzle Game Art", "type": "image", "path": "Images/pzl",
+			"copyright": "Kenney – CC0 (Public Domain)", "copyrightURL": "http://www.kenney.nl"
+		},
+		{
+			"title": "Shapes", "type": "image", "path": "Images/shp", "darkBackground": true
+		},
+		{
+			"title": "Space Shooter Art", "type": "image", "path": "Images/spc",
+			"copyright": "Kenney – CC0 (Public Domain)", "copyrightURL": "http://www.kenney.nl"
+		},
+		{
+			"title": "Test Images", "type": "image", "path": "Images/test",
+			"copyright": "USC-SIPI et al.", "copyrightURL": "http://sipi.usc.edu/database/"
+		},
+		{
+			"title": "Typicons Black", "type": "image", "path": "Images/typb",
+			"copyright": "Stephen Hutchings – CC BY-SA", "copyrightURL": "http://typicons.com"
+		},
+		{
+			"title": "Typicons White", "type": "image", "path": "Images/typw", "darkBackground": true,
+			"copyright": "Stephen Hutchings – CC BY-SA", "copyrightURL": "http://typicons.com"
+		},
+		
+		
+		
+		{
+			"title": "8ve (UI Sounds)", "type": "sound", "path": "Sounds/8ve",
+			"copyright": "raisedbeaches.com/octave", "copyrightURL": "http://raisedbeaches.com/octave/"
+		},
+		{
+			"title": "RPG", "type": "sound", "path": "Sounds/rpg",
+			"copyright": "Kenney – CC0 (Public Domain)", "copyrightURL": "http://www.kenney.nl"
+		},
+		{
+			"title": "Arcade", "type": "sound", "path": "Sounds/arcade"
+		},
+		{
+			"title": "Casino", "type": "sound", "path": "Sounds/casino",
+			"copyright": "Kenney – CC0 (Public Domain)", "copyrightURL": "http://www.kenney.nl"
+		},
+		{
+			"title": "Digital", "type": "sound", "path": "Sounds/digital",
+			"copyright": "Kenney – CC0 (Public Domain)", "copyrightURL": "http://www.kenney.nl"
+		},
+		{
+			"title": "Drums", "type": "sound", "path": "Sounds/drums"
+		},
+		{
+			"title": "Game", "type": "sound", "path": "Sounds/game"
+		},
+		{
+			"title": "Piano", "type": "sound", "path": "Sounds/piano"
+		},
+		{
+			"title": "UI", "type": "sound", "path": "Sounds/ui",
+			"copyright": "Kenney – CC0 (Public Domain)", "copyrightURL": "http://www.kenney.nl"
+		}
+	]
+}
