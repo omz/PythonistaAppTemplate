@@ -14,11 +14,11 @@
 		7F918BCA1C721C1F0064E744 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F918BC81C721C1F0064E744 /* LaunchScreen.storyboard */; };
 		7F918BD61C721D580064E744 /* captureoutput.py in Resources */ = {isa = PBXBuildFile; fileRef = 7F918BD51C721D580064E744 /* captureoutput.py */; };
 		7F918BD81C721D710064E744 /* captureexceptions.py in Resources */ = {isa = PBXBuildFile; fileRef = 7F918BD71C721D710064E744 /* captureexceptions.py */; };
-		7F918BDE1C722A240064E744 /* PythonistaKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7F918BDB1C722A1E0064E744 /* PythonistaKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7F918BDF1C722A2C0064E744 /* PythonistaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F918BDB1C722A1E0064E744 /* PythonistaKit.framework */; };
 		7F918C401C729E400064E744 /* libpythonista_appui.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F918C3F1C729E400064E744 /* libpythonista_appui.a */; };
 		7F918C421C729E6B0064E744 /* OMTextEditor.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F918C411C729E6B0064E744 /* OMTextEditor.xcassets */; };
 		7F918C461C7393A40064E744 /* Script in Resources */ = {isa = PBXBuildFile; fileRef = 7F918C451C7393A40064E744 /* Script */; };
+		7FA4BBCA1C7664E8001C9481 /* PythonistaKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA4BBC91C7664E8001C9481 /* PythonistaKit.framework */; };
+		7FA4BBCB1C7664ED001C9481 /* PythonistaKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7FA4BBC91C7664E8001C9481 /* PythonistaKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,7 +28,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				7F918BDE1C722A240064E744 /* PythonistaKit.framework in CopyFiles */,
+				7FA4BBCB1C7664ED001C9481 /* PythonistaKit.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,10 +46,10 @@
 		7F918BCB1C721C1F0064E744 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F918BD51C721D580064E744 /* captureoutput.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = captureoutput.py; sourceTree = "<group>"; };
 		7F918BD71C721D710064E744 /* captureexceptions.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = captureexceptions.py; sourceTree = "<group>"; };
-		7F918BDB1C722A1E0064E744 /* PythonistaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PythonistaKit.framework; sourceTree = "<group>"; };
 		7F918C3F1C729E400064E744 /* libpythonista_appui.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpythonista_appui.a; sourceTree = "<group>"; };
 		7F918C411C729E6B0064E744 /* OMTextEditor.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = OMTextEditor.xcassets; sourceTree = "<group>"; };
 		7F918C451C7393A40064E744 /* Script */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Script; sourceTree = "<group>"; };
+		7FA4BBC91C7664E8001C9481 /* PythonistaKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PythonistaKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FA4BBCA1C7664E8001C9481 /* PythonistaKit.framework in Frameworks */,
 				7F918C401C729E400064E744 /* libpythonista_appui.a in Frameworks */,
-				7F918BDF1C722A2C0064E744 /* PythonistaKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,9 +100,9 @@
 		7F918BBA1C721C1F0064E744 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7FA4BBC91C7664E8001C9481 /* PythonistaKit.framework */,
 				7F918C411C729E6B0064E744 /* OMTextEditor.xcassets */,
 				7F918C3F1C729E400064E744 /* libpythonista_appui.a */,
-				7F918BDB1C722A1E0064E744 /* PythonistaKit.framework */,
 				7F918BD51C721D580064E744 /* captureoutput.py */,
 				7F918BD71C721D710064E744 /* captureexceptions.py */,
 				7F918BBB1C721C1F0064E744 /* main.m */,
@@ -117,6 +117,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7F918BCE1C721C1F0064E744 /* Build configuration list for PBXNativeTarget "My App" */;
 			buildPhases = (
+				7FA4BBC81C76285E001C9481 /* ShellScript */,
 				7F918BB31C721C1F0064E744 /* Sources */,
 				7F918BB41C721C1F0064E744 /* Frameworks */,
 				7F918BB51C721C1F0064E744 /* Resources */,
@@ -178,6 +179,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7FA4BBC81C76285E001C9481 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"${CONFIGURATION}\" = \"Release\" ]; then\ncp -f \"${PROJECT_DIR}/PythonistaAppTemplate/PythonistaKit_Release\" \"${PROJECT_DIR}/PythonistaAppTemplate/PythonistaKit.framework/PythonistaKit\"\nelse\ncp -f \"${PROJECT_DIR}/PythonistaAppTemplate/PythonistaKit_Debug\" \"${PROJECT_DIR}/PythonistaAppTemplate/PythonistaKit.framework/PythonistaKit\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7F918BB31C721C1F0064E744 /* Sources */ = {
@@ -241,7 +258,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -280,7 +297,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -345,6 +362,7 @@
 				7F918BD01C721C1F0064E744 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
