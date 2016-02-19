@@ -84,5 +84,3 @@ When you build your project from the unmodified template, the resulting app will
 * If your script doesn't use all of Pythonista's built-in images and sound effects, you can remove those you don't need from `PythonistaKit.framework`. The corresponding files are located in the *Media* directory.
 
 * You can remove packages and modules you don't need from the standard library in `PythonistaKit.framework/pylib` and `PythonistaKit.framework/pylib_ext`. For example, by removing `matplotlib` and `sympy` from `pylib_ext`, you can save about 20 MB.
-
-* The PythonistaKit framework includes code for both the iOS simulator and actual devices. If you don't need the simulator code anymore (e.g. for distribution on the App Store), you can remove those slices using the `lipo` command. Open the `PythonistaKit.framework` folder in a Terminal window, and enter the following command to remove the simulator slices (make a backup copy first): `lipo -remove x86_64 -remove i386 PythonistaKit -output PythonistaKit`. This saves about 25 MB.
