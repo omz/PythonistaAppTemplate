@@ -8,7 +8,7 @@ First off, you obviously need to download Xcode [from the App Store](https://itu
 
 This is enough to build your app for the iOS simulator, but to get it running on an actual device, you need at least an Apple ID (for running on your own device) or a paid Developer Program membership (for distributing through the App Store). The details of how to set up code signing and provisioning profiles are beyond the scope of this document, but they're not different from what you need to do to build any other iOS app, and you can find plenty of information about the process online.
 
-The template just runs a default "Hello World" script by default. To make it run your own script, just put it in the "Script" folder of the template, and rename it to "main.py" if necessary. You can also put additional resources there, e.g. pyui files, images, etc.
+The template just runs a default "Hello World" script by default. To make it run your own script, just put it in the "Script" folder of the template, and rename it to `main.py` if necessary. You can also put additional resources there, e.g. pyui files, images, etc.
 
 ## Customization
 
@@ -16,7 +16,7 @@ The template just runs a default "Hello World" script by default. To make it run
 
 Before changing the app's name and icon, you should usually change its *bundle identifier*, so that it is unique:
 
-Open the Xcode project, and select the first entry in the project navigator (PythonistaAppTemplate). Select the "My App" target in the left pane, and enter something unique in the "Bundle Identifier" field. The bundle identifier should be in "reverse domain" notation, e.g. something like com.mycompany.myapp.
+Open the Xcode project, and select the first entry in the project navigator (PythonistaAppTemplate). Select the "My App" target in the left pane, and enter something unique in the "Bundle Identifier" field. The bundle identifier should be in "reverse domain" notation, e.g. something like `com.mycompany.myapp`.
 
 To change the name that is shown below the icon on the homescreen, you can simply rename the target ("My App" by default) by double-clicking on it.
 
