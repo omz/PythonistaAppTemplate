@@ -1,6 +1,6 @@
 # Xcode Template for Pythonista
 
-This template allows you to package scripts written in [Pythonista for iOS](http://omz-software.com/pythonista) as standalone apps that can be built using Xcode.
+This template allows you to package Python 2 scripts written in [Pythonista for iOS](http://omz-software.com/pythonista) as standalone apps that can be built using Xcode.  This template does not currently support Python 3.
 
 ## Using the Template
 
