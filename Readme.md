@@ -1,5 +1,7 @@
 # Xcode Template for Pythonista
 
+A current version can be found at https://www.dropbox.com/s/dl/5l94m0xjbot5je0/Pythonista3AppTemplate.zip
+
 This template allows you to package Python 2 scripts written in [Pythonista for iOS](http://omz-software.com/pythonista) as standalone apps that can be built using Xcode.  This template does not currently support Python 3.
 
 ## Using the Template
